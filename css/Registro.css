@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Flex:opsz@8..144&family=Roboto+Slab:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@700&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: transparent;
+    background-size: 118%;
+    background-repeat: no-repeat;
+ 
+    
+}
+
+nav{
+    background-color:transparent;
+}
+
+
+
+
+
+nav ul li{
+    display: inline-block;
+    margin: 40px 20px;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav ul{
+    float:right;
+    margin-right: 100px;
+
+}
+
+header{
+    position:absolute;
+    height: 75px;
+    width: 75px;
+    margin: 8px 0px;
+    margin-left: 165px;
+
+}
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 8px 8px; /*espacio del margen*/
+    text-decoration: none; /*subrayado*/
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+nav ul li a:hover{
+    position: static;
+    border: 0px solid #6A5DC4;
+    color: white;
+    text-decoration: none;
+    background: #6A5DC4;
+}
+
+#contenedor{
+    width: 90%;
+    max-width:1800px;
+    margin: auto;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+#panelFondo{
+   
+    width: 500px;
+    height: 1160px;
+    margin-top: -180px;
+    margin-left: -1470px;
+    background-color: #7DA4CA;
+    
+   
+}
+
+#titulopagina{
+    color: white;
+    height: 100px;
+    width: 350px;
+    text-align: left;
+    justify-content: left;
+    font-size: 32px;
+    background-color: transparent;
+    font-family: 'Roboto Slab', sans-serif;
+    margin-top: -700px;
+    margin-left: -240px;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+.Formu{
+    margin-top:-400px;
+
+}
+
+.Formu .form{
+    display: block;
+    width: 100%;
+    max-width: 20000px;
+    margin-left: 300px;
+   
+  
+}
+
+.Formu .form .form1 .tituloForm{
+  
+    font-family: 'Roboto Slab';
+    font-size: 28px;
+    margin-top: 125px;
+    margin-left: -20px;
+    line-height: 100px;
+    width: 550px;
+    text-align: center;
+
+}
+
+.Formu .form .labelForm{
+
+    line-height: 50px;
+    font-family: 'Roboto Slab';
+    font-size: 18px;
+    width: 200px;
+    padding: 100px 15px;
+
+}
+
+
+.Formu .form .form-input{
+    font-family: 'Roboto Slab';
+    font-size: 16px;
+    width: 500px;
+    padding: 15px 15px;
+    border-radius: 100px;
+    background-color: #EFEEF5;
+    color: black;
+    border: none;
+}
+
+
+
+
+
+#boton{
+    position:absolute;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
+    text-align: center;
+    background-color: #C9725B;
+    border-radius: 100px;
+    padding: 18px 30px;
+    margin-top: 245px;
+    margin-left: 580px;
+}
+
+#boton:hover{
+    background-color: #22242E;
+    color: white;
+    border: 2px solid #22242E;
+    cursor: pointer;
+  
+    
+}
+
+#panelIcon{
+    position: relative;
+    margin-top: 100px;
+    margin-left: -1400px;
+
+}
+
+#preguntaContra{
+    position:absolute;
+    text-decoration: none;
+    color: #665075;
+    width: 600px;
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
+    text-align: center;
+    padding: 18px 30px;
+    margin-top: 705px;
+    margin-left: 370px;
+
+
+}
+
+
+
+@media(max-width: 1800px){
+
+    .icono_menu{
+        width: 30px;
+        position: absolute;
+        top: 30px;
+    }
+
+    .icono_menu span{
+        height: 3px;
+        display: block;
+        background-color: white;
+        margin-bottom: 4px;
+    }
+
+    nav{
+        position: relative;
+    }
+
+    nav .Logo{
+        margin-left: 50px;
+    }
+
+    nav ul{
+        float: left;
+        width: 300px;
+        padding: 0;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -100%;
+        background-color:#C9725B ;
+        margin: 0px;
+        padding-top: 60px;
+        transition: 2s;
+        z-index: -2;
+    }
+
+    nav ul li {
+        font-size: 18px;
+        padding: 10px 40px;
+    }
+
+   
+
+    nav ul li a{
+        font-size: 18px;
+        padding: 10px 40px;
+    }
+
+    .abrir{
+        left:0;
+        
+    }
+
+    .cerrar{
+        display: block;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        color: #C9725B;
+        font-size: 30px;
+    }
+}
