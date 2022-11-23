@@ -835,3 +835,32 @@ button:hover{
         font-size: 20px;
     }
 }
+
+
+@media screen and (max-width: 550px){
+    
+
+    .texto2{
+       padding-top: 130px ;
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 380px){
+    
+
+    .texto2{
+       padding-top: 230px ;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    
+
+    .texto2{
+       padding-top: 130px ;
+        
+    }
+}
