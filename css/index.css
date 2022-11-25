@@ -1375,6 +1375,33 @@ button:hover{
     }
 }
 
+@media screen and (max-width: 411px){
+  
+
+
+    .container__banner2 .task2 img{
+       
+        width: 350px;
+       height: 300px;
+        
+    }
+
+    .container__banner3 .task3 img{
+     
+        width: 340px;
+       height: 200px;
+        
+    }
+
+    .container__banner4 .task4 img{
+     
+        width: 340px;
+       height: 350px;
+        
+    }
+}
+
+
 
 @media screen and (max-width: 390px){
   
