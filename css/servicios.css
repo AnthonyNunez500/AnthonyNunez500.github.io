@@ -767,6 +767,17 @@ button:hover{
 }
 
 
+@media screen and (max-width: 670px){
+   
+    .colum2{
+        margin-top: 30px;
+    }
+  
+    .colum3{
+        margin-top: 30px;
+    }
+}
+
 @media screen and (max-width: 437px){
     
 
